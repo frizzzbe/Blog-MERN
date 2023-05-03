@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/posts', (req, res) => {
+app.get('/posts/alan', (req, res) => {
   res.send({
     name: 'Alan',
     surname: 'walker',
