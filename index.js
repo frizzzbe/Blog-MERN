@@ -29,7 +29,6 @@ app.post('/auth/login', (req, res) =>{
   res.json({
     success: false,
     count: 42,
-    simple: 'ss',
     token
   })
 })
