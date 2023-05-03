@@ -12,7 +12,6 @@ app.get('/posts', (req, res) => {
   res.send({
     name: 'Alan',
     surname: 'walker',
-    d_Size: '16sm'
   })
 })
 
