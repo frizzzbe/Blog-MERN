@@ -8,6 +8,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+// GET http://localhost:4444/posts/alan
 app.get('/posts/alan', (req, res) => {
   res.send({
     name: 'Alan',
@@ -16,7 +17,6 @@ app.get('/posts/alan', (req, res) => {
 })
 
 // POST http://localhost:4444/auth/login
-// По таком запросу будет дан ответ содержащий вложенный JSON
 app.post('/auth/login', (req, res) =>{
   const token = jwt.sign({
     email: req.body.email,
