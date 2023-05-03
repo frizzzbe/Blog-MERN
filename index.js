@@ -33,7 +33,6 @@ app.post('/auth/login', (req, res) =>{
 
 app.listen(4444, (err) => {
   if (err) {
-    console.log('error ')
     throw console.error(err)
   }
   console.log('Server is OK!')
