@@ -24,8 +24,6 @@ app.post('/auth/login', (req, res) =>{
     fullname: "Петя Жабкин"
   },
   'кодовая фраза для шифровки сообщения')
-
-  // ответное сообщение
   res.json({
     success: false,
     count: 42,
