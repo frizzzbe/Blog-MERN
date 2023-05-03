@@ -23,7 +23,7 @@ app.post('/auth/login', (req, res) =>{
     email: req.body.email,
     fullname: "Петя Жабкин"
   },
-  'кодовая фраза для шифровки сообщения')
+  'key fdlghfkhkgkd')
   res.json({
     success: false,
     count: 42,
